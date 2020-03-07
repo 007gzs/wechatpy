@@ -24,7 +24,7 @@ from wechatpy.exceptions import APILimitedException, WeChatClientException, WeCh
 from wechatpy.fields import DateTimeField, StringField
 from wechatpy.messages import MessageMetaClass
 from wechatpy.session.memorystorage import MemoryStorage
-from wechatpy.utils import get_querystring, json, to_binary, to_text, ObjectDict
+from wechatpy.utils import get_querystring, json, to_text, ObjectDict
 
 logger = logging.getLogger(__name__)
 
